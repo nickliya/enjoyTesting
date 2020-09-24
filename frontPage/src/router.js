@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/UIlist.vue';
+// import Home from './views/UIlist.vue';
 // import wyc from './views/wyc.vue';
 
 Vue.use(Router);
@@ -10,7 +10,7 @@ export default new Router({
     {
       path: '/',
       name: '主页',
-      component: () => import('./views/UIlist.vue')
+      component: () => import('./views/home.vue')
     },
     {
       path: '/ps',
