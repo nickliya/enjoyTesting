@@ -3,14 +3,14 @@
   <a-menu
     mode="horizontal"
   >
-    <a-menu-item key="ps">
-      <router-link to="/ps"><a-icon type="file-text"/>首页导航</router-link>
+    <a-menu-item key="dh">
+      <router-link to="/dh"><a-icon type="file-text"/>首页导航</router-link>
     </a-menu-item>
     <a-sub-menu>
-      <span slot="title"><a-icon type="exception" />车载界面UI</span>
+      <span slot="title"><a-icon type="exception" />数据</span>
       <a-menu-item-group title="菜单a">
         <a-menu-item key="carUI">
-          <router-link to="/">1111</router-link>
+          <router-link to="/data">测试数据构造</router-link>
         </a-menu-item>
       </a-menu-item-group>
       <a-menu-item-group title="菜单b">

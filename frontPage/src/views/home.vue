@@ -1,6 +1,6 @@
 <template>
     <div class="home" :style="background">
-      <img src="../assets/logo.png" alt="Vue logos">
+      <!-- <img src="../assets/logo.png" alt="Vue logos"> -->
     </div>
 </template>
 

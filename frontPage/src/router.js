@@ -13,14 +13,14 @@ export default new Router({
       component: () => import('./views/home.vue')
     },
     {
-      path: '/ps',
-      name: '跑商',
+      path: '/dh',
+      name: '导航',
       component: () => import('./views/AddressNavi.vue')
     },
     {
-      path: '/wl',
-      name: '跑商2',
-      component: () => import('./views/UIlist1.vue')
+      path: '/data',
+      name: '数据',
+      component: () => import('./views/data.vue')
     },
     {
       path: '/upgradeLog',
